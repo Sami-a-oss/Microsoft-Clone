@@ -1,0 +1,254 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading1 {
+    height: 54px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading1Logo {
+    background-image: url(pic1.png);
+    background-size: cover;
+    width: 108px;
+    height: 23px;
+}
+.heading1Text1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 749px;
+    height: 100%;
+}
+
+.heading1Text2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 320px;
+    /* background-color: blue; */
+}
+
+
+.fa-magnifying-glass {
+    font-size: 1rem;
+}
+.fa-cart-plus { 
+    font-size: 1rem;
+}
+.fa-user {
+    font-size: 1rem;
+}
+
+
+
+
+.heading1 a {
+    font-size: 0.9rem;
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.haverAnimation:hover {
+    border-bottom: 2.3px solid black;
+}
+
+.heading2 {
+    height: 58px;
+    width: 100%;
+    background-color: #0067b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.haverAnimation1:hover {
+    text-decoration: underline;
+}
+
+.layoutHeroImg {
+    background-image: url(pic2.avif);
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.layoutHero1 {
+    margin-left: 120px;
+}
+.layoutHero1 button {
+    width: 140px;
+    height: 30px;
+    background-color: #ffb900;
+    border: none;
+}
+.layoutHero1 button a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.layoutHero2 {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.layoutHero2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+.layoutHero3 {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.layoutHero3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.layoutHero4 {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+.layoutHero4 button {
+    width: 110px;
+    height: 39px;
+    background-color: #0067b8;
+    border: none;
+}
+.layoutHero4 button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.haverAnimation2:hover {
+    background-color: #05518b;
+}
+
+
+
+
+
+.boxLayout1 {
+    display: flex;
+    width: 100%;
+    height: 419px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.boxLayout1box1 {
+    width: 335px;
+    height: 100%;
+    background-color: #fff;
+
+    box-shadow: 0 .1875rem .4375rem 0 rgba(0, 0, 0, .13), 0 .0625rem .125rem 0 rgba(0, 0, 0, .11);
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.boxLayout1box1Img {
+    /* background-image: url(pic3.avif); */
+    background-size: cover;
+    height: 170px;
+    width: 100%;
+}
+.boxLayout1box1Heading {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.boxLayout1box1Heading h2 a {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    /* margin-left: 30px; */
+}
+.boxLayout1box1Paragraph {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.boxLayout1box1Paragraph a {
+    font-size: 0.98rem;
+    text-decoration: none;
+    color: black;
+    line-height: 1.4;
+}
+.boxLayout1box1Button {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.boxLayout1box1Button button {
+    width: 169px;
+    height: 39px;
+    background-color: #0067b8;
+    color: white;
+    font-weight: 500;
+    border: none;
+    font-size: 1rem;
+}
+
+
+
+
+
+.layout2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 545px;
+    margin-top: 30px;
+}
+.layout2Img {
+    background-image: url(pic7.avif);
+    background-size: cover;
+    height: 100%;
+    width: 95.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.layout2AllText {
+    /* background-color: green; */
+    margin-left: 100px;
+}
+.layout2Text1 h2 {
+    font-size: 2.3rem;
+    font-weight: lighter;
+}
+.layout2Text2 p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.layout2button button {
+    width: 136px;
+    height: 39px;
+    background-color: #0067b8;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 550;
+}
